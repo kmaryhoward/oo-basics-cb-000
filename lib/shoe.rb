@@ -8,7 +8,7 @@ class Shoe
 
   shoe = Shoe.new
 
-  def shoe.cobble
+  def self.cobble(shoe)
     puts "Your shoe is as good as new!"
     shoe.condition = "new"
   end
